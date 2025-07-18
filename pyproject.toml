@@ -1,0 +1,17 @@
+[project]
+name = "llama-mcp-adapter"
+version = "0.1.0"
+description = "Adapter for handling Pydantic models and custom types in llama mcp."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "llama-index>=0.12.49",
+    "llama-index-tools-mcp>=0.2.6",
+]
+
+[dependency-groups]
+lint = [
+    "pre-commit>=4.2.0",
+    "ruff>=0.12.4",
+    "ty>=0.0.1a14",
+]
