@@ -1,6 +1,6 @@
 [project]
 name = "llama-mcp-adapter"
-version = "0.1.0"
+version = "0.1.1"
 description = "Adapter for handling Pydantic models and custom types in llama mcp."
 readme = "README.md"
 requires-python = ">=3.13"
