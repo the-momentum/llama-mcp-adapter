@@ -57,7 +57,7 @@ class McpToolSpecAdapter(McpToolSpec):
 
         required_fields = set(property_schema.get("required", []))
         fields = {}
-        breakpoint()
+
         for field_name, field_schema in properties.items():
             if "$ref" in field_schema:
                 ref_name = field_schema["$ref"].split("#/$defs/")[-1]
