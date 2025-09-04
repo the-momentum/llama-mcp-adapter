@@ -10,3 +10,6 @@ uv add "llama-mcp-adapter @ git+https://github.com/the-momentum/llama-mcp-adapte
 ```py
 from llama_mcp_adapter.adapter import McpToolSpecAdapter
 ```
+
+## Why archived?
+Because we have made a contribution to llama-index and the solution is already merged.
